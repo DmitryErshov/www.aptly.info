@@ -18,7 +18,8 @@ env:
 
 prepare: env
 
-	go get -u -v github.com/gohugoio/hugo
+	go version
+#	go get -u -v github.com/gohugoio/hugo
 
 links:
 	linkchecker http://localhost:1313/
