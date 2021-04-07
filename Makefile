@@ -25,4 +25,3 @@ links:
 
 deploy:
 	hugo
-	[ -z "$$AWS_ACCESS_KEY_ID" ] || env/bin/s3cmd sync -c /dev/null --acl-public public/ $(DESTINATION)
