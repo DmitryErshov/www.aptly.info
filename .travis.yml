@@ -3,6 +3,8 @@ language: go
 go:
   - "1.16.3"
 
+dist: bionic
+
 before_script:
   - make prepare
 
